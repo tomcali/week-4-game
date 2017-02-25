@@ -11,43 +11,30 @@
 
 <body>
     <div class="jumbotron">
-        <h2 class="text-center"></h2>
-        <p class="text-center"></p>
+        <h1 class="text-center">Play Ball</h1>
+        <p> </p>
+        <p>
+            <button class="btn btn-info btn-lg" type="submit">Start Game</button>
+        </p>
     </div>
-
-   <div class="jumbotext">
-        <h2 class="text-center">Guessing Your Way through Statistics</h2>
-        <p class="text-center">Statistics doesn't have to be dull. Have fun with this hangman-style game involving statistical terminology.</p>
-        <p><a id="startButton" class="btn btn-default" role="button" href="#">Start Game</a></p>
+    <div class="row">
+        <h2>Instructions </h2>
+        <h3>For each game shown, pick the team that you would like to win by clicking on it or touching it.</h3></div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <h3>Away Team</h3><a class="btn btn-link btn-lg" role="button" href="#">Button</a></div>
+        <div class="col-md-4">
+            <h3>Home Team</h3><a class="btn btn-link btn-lg" role="button" href="#">Button</a></div>
+        <div class="col-md-2"></div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <p>Guess the statistical term.</p>
-                <p>One letter of the term goes in each space.</p>
-                <p id="hintText"></p>
-                <p id="lettersInSpaces"></p>
-                <p id="letterSpaces"></p>
-            </div>
-            <div class="col-md-4">
-                <p id="guessesRemaining"></p>
-                <p id="lettersAvailable"></p>
-                <p id="lettersUsed"></p>
-            </div>
-            <div class="col-md-4">
-                <p id="statusText"></p>
-                <p id="correctTerm"></p>
-                <p id="definitionText"></p>
-            </div>
-        </div>
-    </div>
+    <div class="row">
+        <h1 id=#gameResultText> </h1></div>
     <footer>
         <div class="container">
             Copyright &copy; 2017 Tom Miller
         </div>
     </footer>
-    <script src="assets/javascript/readGameData.js"></script>
     <script src="assets/javascript/setFunctions.js"></script>
     <script src="assets/javascript/utilityFunctions.js"></script>
     <script src="assets/javascript/game.js"></script>
