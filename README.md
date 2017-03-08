@@ -1,5 +1,7 @@
 # week-4-game
-Homewook involving jQuery practice.... still work to do on this one.... but here is the plan of action.
+Homewook involving jQuery practice.... Had forgotten to add the js directory with jQuery. That has been done now.
+
+There is still work to do on this one.... but here is the plan of action as I set it up a week ago.
 
 # Inventing a New Game
 Finding neither the crystals nor Star Wars games particularly interesting, I decided to invent a game of my own. Play Ball is a choice game to reveal team preferences across baseball fans. The game involves the presentation of logos for the thirty MLB teams. Logos are presented in pairs, and the game player picks the member of each pair that he/she prefers. Mathematics are involved in that a perference score is derived from the game player's paired comparison choices. In sum, we could use a game that has a measurement purpose while demonstrating skills in working with JavaScript and jQuery.

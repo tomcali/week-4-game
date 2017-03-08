@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         'logo_cin_79x76.jpg',  'logo_mil_79x76.jpg',  'logo_sd_79x76.jpg'];
     var nationalIconSet = new Set(nationalIconArray);
 
- startButton.onclick = function() {
+$("#startGame").on("click", function() {
     // readGameData.js contains an array of JSON objects for the game items
     console.log('-------------------------------');
     console.log('-------- START NEW GAME -------');
@@ -56,6 +56,19 @@ document.addEventListener("DOMContentLoaded", function() {
     while (indexOfGame < numberGames) {
         console.log('-----------------------------');
 
+    // need to add logic associated with clicking on either
+    // the away team or the home team
+
+    $("#awayButton").on("click", function() {
+        // chalk up a vote for the away team that was displayed
+        // and move to the next pair of teams
+    }
+
+    $("#homeButton").on("click", function() {
+        // chalk up a vote for the home team that was displayed
+        // and move to the next pair of teams
+    }
+
         // choose teams at random without replacement
 
     }; // end of major while-loop
@@ -65,6 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
     gameResultText.innerHTML = ('You chose ' + ' American League Teams and ' + 
         ' National League Teams');
   
-} // startButton.onclick function end
+}); // startButton.onclick function end
 
 }); // end of total wrapper function
